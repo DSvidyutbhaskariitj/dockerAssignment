@@ -30,3 +30,5 @@ Steps
 5. run container docker-compose up
 6. Check container name in powershell docker ps
 7. Start new app command  'docker exec dockerassignment-web-1 python manage.py startapp <app-name>
+
+ex - let us change the response of the WelcomeUser App
