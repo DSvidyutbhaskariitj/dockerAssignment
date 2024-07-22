@@ -21,3 +21,4 @@ Software Pre-Requisites
 1. Docker Desktop
 2. IDE - VS Code
 3. VS Code Extensions - Python and Docker from verified sources
+
