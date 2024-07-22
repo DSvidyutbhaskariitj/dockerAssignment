@@ -1,31 +1,23 @@
 # dockerAssignment
-# dockerAssignment
 #This is assignment project for virtualization and cloud computing
 AUTHOR -    VIDYUT BHASKAR
 ROLL -      G23AI2128
 COURSE-     PGDDE 2024-25
 SUBJECT     VIRTUALIZATION AND CLOUD COMPUTING
 
-Objective - Create a Docker container and deploy an Angular Application in it
+Objective - Create a Docker image of Web Application and Deploy and Run inside the container
 
-Local Settings
-1. Make sure you have installed nvm, npm, node and angular cli
-2. Make sure Docker is installed in your computer - Docker Desktop
-3. check versions installed with npm -v and node -v
-4. Install latest node.js --> nvm install --latest
-5. Install angular globally - npm install -g @angular/cli
-6. Check angular version ng version
-7. To avoid dependency related issues run 'npm install --legacy-peer-deps'
-----------------VERSIONS USED------------------------
-Angular CLI: 18.1.1        
-Node: 22.5.1
-Package Manager: npm 10.8.2
-OS: win32 x64
+There are two options to build container applications
+1. Build the project and later containerize it
+2. Build the project inside the the container
 
-Package                      Version
-------------------------------------------------------
-@angular-devkit/architect    0.1801.1 (cli-only)
-@angular-devkit/core         18.1.1 (cli-only)
-@angular-devkit/schematics   18.1.1 (cli-only)
-@schematics/angular          18.1.1 (cli-only)
-------------------------------------------------------
+In This assignment we will option2 to build and deploy a DjangoApplication inside the container
+
+Assignment Requirements
+1. Git-Hub Repos
+2. Youtube Video
+
+Software Pre-Requisites
+1. Docker Desktop
+2. IDE - VS Code
+3. VS Code Extensions - Python and Docker from verified sources
