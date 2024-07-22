@@ -22,3 +22,11 @@ Software Pre-Requisites
 2. IDE - VS Code
 3. VS Code Extensions - Python and Docker from verified sources
 
+Steps
+1. Create docker-compose.yml - store container configuration
+2. Create Dockerfile - store image information
+3. Create requirements.txt - provide Django server version requirements
+4. run command:  'docker-compose run web django-admin startproject myTestProject .' -- this will build project in the root folder
+5. run container docker-compose up
+6. Check container name in powershell docker ps
+7. Start new app command  'docker exec dockerassignment-web-1 python manage.py startapp <app-name>
